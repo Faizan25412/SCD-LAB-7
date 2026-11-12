@@ -1,0 +1,13 @@
+// Name: Muhammad Faizan
+// ID: 25412
+#include <iostream>
+using namespace std;
+
+int main() {
+    int num = 25;
+    int *ptr = &num;
+    cout << "Value of num: " << num << endl;
+    cout << "Address of num: " << ptr << endl;
+    cout << "Value using pointer: " << *ptr << endl;
+    return 0;
+}
